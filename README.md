@@ -1,3 +1,13 @@
+Original repository.   
+https://github.com/dmexe/failsafe-rs.  
+
+circuit breaker на Rust сделана с использованием Mutex & StateMachine   
+use parking_lot::Mutex;   
+https://github.com/dmexe/failsafe-rs/blob/master/src/state_machine.rs    
+
+use super::state_machine::StateMachine;    
+https://github.com/dmexe/failsafe-rs/blob/master/src/circuit_breaker.rs   
+
 # Failsafe
 
 [![Сrate](https://img.shields.io/crates/v/failsafe.svg)](https://crates.io/crates/failsafe)
